@@ -1,0 +1,40 @@
+:root {
+    --main-bg-color: #7375ac;
+    --text-primary-color: #c53f37;
+    --text-secondary-color: #944945;
+    --text-thirdary-color: #c9bbba;
+    --text-fourthdary-color: #ece1dd;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.Title {
+    font-size: 12em;
+    color: var(--text-primary-color);
+    text-shadow: 5px 5px 5px var(--text-secondary-color);
+    margin-top: 70px;
+}
+
+.Title-Divider {
+    border: 3px solid var(--text-thirdary-color);
+    width: 40%;
+    margin-top: -170px;
+    -webkit-box-shadow: 0px 0px 13px 5px var(--text-thirdary-color);
+    box-shadow: 0px 0px 13px 5px var(--text-thirdary-color);
+}
+
+.Body {
+    width: 80%;
+    margin-top: calc(50vh - 500px);
+    margin-left: calc(100% - 90%);
+    color: var(--text-fourthdary-color);
+    font-weight: 500;
+    font-size: 3.6em;
+    font-style: italic;
+    text-transform:unset;
+}
